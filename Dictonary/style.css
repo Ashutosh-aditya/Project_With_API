@@ -1,0 +1,126 @@
+*{
+    padding : 1em;
+    margin: 0;
+    box-sizing: border-box;
+    /* border-radius: 1em; */
+}
+body{
+    background: linear-gradient(to bottom, blue, cyan);
+}
+
+.conatiner {
+    background-color: rgba(255, 255, 255, 0.726);;
+    position: absolute;
+    top: 20%;
+    left: 20%;
+    padding: 2em;
+    box-shadow: 0 20px 40px rgba(38,33,61,0.3);
+    width: 70%; /* Using percentage for width */
+    max-width: 50em; /* Limiting the maximum width */
+    border-radius: 2em;
+}
+
+.search_box_item{
+    border: none;
+    outline: none;
+    border-bottom: 1px solid rgb(174, 156, 255);
+    border-radius: 1em;
+    width: 80%;
+    padding-right: 5em;
+}
+.search_button{
+    border-radius: 1em;
+    border: none;
+    outline: none;
+    background-color: #ae9cff;
+    margin-left: 1em;
+    padding: 0 0 0 0 ;
+    color: black;
+}
+.sample_word{
+    color:grey;
+}
+.result{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 0;
+}
+#Sicon{
+    border: none !important ;
+    outline: none !important;
+    background: transparent;
+    height: 0.1em;
+    width: 0.1em;
+    color: grey;
+}
+
+.sample_word{
+    padding-top: 0;
+    padding-left: 0;
+    padding-bottom: 0;
+}
+
+#btn-icon {
+    border: none;
+    outline: none;
+    background: transparent;
+    padding-bottom: 0;
+    padding-top: 0;
+}
+
+#Sicon:hover{
+    border: none !important ;
+    outline: none !important;
+    background: transparent;
+    height: 0.1em;
+    width: 0.1em;
+    color: blue;
+}
+.Sicon{
+    border: none;
+    outline: none;
+    padding-top: 0;
+    padding-bottom: 0;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.details{
+    margin-top: 0;
+    padding-top: 0;
+    display: flex;
+    color:#ae9cff
+}
+p{
+    padding-top: 0.1em;
+    padding-bottom: 0.1em;
+    padding-left: 0;
+    text-align: justify;
+}
+
+.result{
+    margin-bottom: 0;
+    padding-bottom: 0;
+    padding-top: 0;
+}
+
+.word-example{
+    color:darkgray;
+    padding-top: 0;
+    font-style: italic;
+    border-left: solid 0.5em grey;
+    padding-left: 1em;
+}
+.word_meaning,.word-example1{
+    color: grey;
+    padding-top: 0;
+}
+
+#srch{
+    background-color:rgb(185, 205, 255);
+    border: none;
+    /* padding:0px 0px 0px 0px; */
+    outline: none;
+
+}
+
