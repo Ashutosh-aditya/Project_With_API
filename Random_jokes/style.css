@@ -1,0 +1,58 @@
+body{
+    background-color:rgb(58, 175, 169);
+}
+
+.container{
+    background-color: black;
+    /* background:linear-gradient(45deg,black,lightcyan); */
+    height:fit-content;
+    box-shadow: 0 20px 40px rgba(38,33,61,0.3);
+    width: 70%; /* Using percentage for width */
+    max-width: 50em; /* Limiting the maximum width */
+    margin: auto;
+    margin-top: 12%;
+    border-radius: 1em;
+    color:rgb(20, 247, 240);
+}
+.neon {
+    color: #fff; /* Set text color to white */
+    text-shadow: 
+    0 0 5px #fff, 
+    0 0 1px #fff, 
+    0 0 1px #fff, 
+    0 0 2px rgb(58, 175, 169), 
+    0 0 3px rgb(58, 175, 169), 
+    0 0 4px rgb(58, 175, 169), 
+    0 0 5px rgb(58, 175, 169), 
+    0 0 7px rgb(58, 175, 169);
+}
+.emojii{
+    text-align: center;
+    font-size:  5em;
+}
+.btn{
+    text-align: center;
+    padding:1em 1em 1em 1em ;
+    border-radius: 1em;
+}
+#getJokeBtn{
+    color:rgb(58, 175, 169);
+    border:0.1em solid rgb(58, 175, 169);
+    padding:1em 1em 1em 1em ;
+    background-color: black;
+    border-radius: 0.5em;
+}
+#getJokeBtn:hover{
+    color:black;
+    border:0.1em solid black;
+    padding:1em 1em 1em 1em ;
+    background-color: rgb(58, 175, 169);
+    border-radius: 0.5em;
+}
+
+.joke p{
+    padding:2em 2em 2em 2em ;
+    text-align: center;
+    color:rgb(20, 247, 240);
+    font-size: larger;
+}
