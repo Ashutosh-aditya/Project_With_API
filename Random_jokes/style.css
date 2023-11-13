@@ -27,6 +27,7 @@ body{
     0 0 7px rgb(58, 175, 169);
 }
 .emojii{
+    padding-top: 0.2em;
     text-align: center;
     font-size:  5em;
 }
@@ -51,7 +52,7 @@ body{
 }
 
 .joke p{
-    padding:2em 2em 2em 2em ;
+    padding:0.2em 2em 2em 2em ;
     text-align: center;
     color:rgb(20, 247, 240);
     font-size: larger;
