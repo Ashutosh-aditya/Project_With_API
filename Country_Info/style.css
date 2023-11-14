@@ -1,0 +1,95 @@
+body{
+    /* background:linear-gradient(45deg,lightblue,cyan); */
+    background-color:grey;
+}
+.wrapper{
+    width:50%;
+    border:none;
+    outline: none;
+    border-radius:1em ;
+    position: absolute;
+    padding: 0.5em 0.5em 0.5em 0.5em;
+    left: 23%;
+    top:20%;
+    background-color: lightgrey;
+    box-shadow: 0 20px 40px rgba(38,33,61,0.3);
+}
+
+.search{
+    width: auto;
+    align-items: center ;
+    text-align: center;
+    padding: 0.5em 0.5em 0.5em 0.5em;
+}
+.textbox1{
+    width: 80%;
+    padding: 0.5em 0.5em 0.5em 0.5em;
+    border-radius: 1em;
+    border:none;
+    outline: none;
+    border-bottom: solid 0.1em black;
+}
+
+.btn{
+    margin-left: 5%;
+    width:max-content;
+    padding: 0.7em 0.7em 0.7em 0.7em;
+    border-radius: 1em;
+    border: none;
+    outline: none;
+    background-color: #1b66c9;
+    color: white;
+}
+.btn:hover{
+    background-color: blue;
+}
+img{
+    text-align: center;
+    position: relative;
+    box-sizing: border-box;
+    height: 50%;
+    width: 50%;
+}
+.container{
+    align-content: center;
+    color:black;
+    padding: 2em 2em 2em 2em ;
+    box-shadow: 0 20px 40px rgba(38,33,61,0.3);
+    border: none;
+    border-radius: 1em;
+    text-align: center;
+}
+table {
+    border-collapse: collapse;
+    width: 50%; /* Adjust the width as needed */
+    margin: auto;
+    font-family: 'Arial', sans-serif;
+    border: 2px solid #ddd;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+img {
+    display: block;
+    margin: auto;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    max-width: 100%; /* Make sure the image doesn't overflow its container */
+}
+
+/* Additional text styles */
+td {
+    color: #333; /* Text color */
+}
+
+h2 {
+    color: #004080; /* Heading color */
+}
